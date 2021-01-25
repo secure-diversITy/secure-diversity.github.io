@@ -13,6 +13,7 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomDoxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -22,7 +23,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Playbooks On Rails (PORS)
-   &#160;<span id="projectnumber">Generated: 2021-01-23</span>
+   &#160;<span id="projectnumber">Generated: 2021-01-25</span>
    </div>
    <div id="projectbrief">A graphical interface to ease splunk tasks</div>
   </td>
@@ -256,9 +257,8 @@ Exported String&#160;</td><td class="memItemRight" valign="bottom"><b>NCURSES_NO
 <tr class="memitem:af6d5a9916e4dc573ceb5dcc099e131a3"><td class="memItemLeft" align="right" valign="top">Exported String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#af6d5a9916e4dc573ceb5dcc099e131a3">PYTHONUNBUFFERED</a> = 1</td></tr>
 <tr class="memdesc:af6d5a9916e4dc573ceb5dcc099e131a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">avoid buffering when exec python code (ansible)  <a href="pors_8sh.html#af6d5a9916e4dc573ceb5dcc099e131a3">More...</a><br /></td></tr>
 <tr class="separator:af6d5a9916e4dc573ceb5dcc099e131a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cdf0b70265066d6127339b05fd497c1"><td class="memItemLeft" align="right" valign="top"><a id="a4cdf0b70265066d6127339b05fd497c1"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a4cdf0b70265066d6127339b05fd497c1">BIN</a> = ${0##*/}</td></tr>
-<tr class="memdesc:a4cdf0b70265066d6127339b05fd497c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">auto generate the binary name without path <br /></td></tr>
+<tr class="memitem:a4cdf0b70265066d6127339b05fd497c1"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a4cdf0b70265066d6127339b05fd497c1">BIN</a> = ${0##*/}</td></tr>
+<tr class="memdesc:a4cdf0b70265066d6127339b05fd497c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">auto generate the binary name without path  <a href="pors_8sh.html#a4cdf0b70265066d6127339b05fd497c1">More...</a><br /></td></tr>
 <tr class="separator:a4cdf0b70265066d6127339b05fd497c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77675f0f795a34bc2a08c5752bd12c34"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a77675f0f795a34bc2a08c5752bd12c34">REQAVERSION</a> = &quot;2.8.0&quot;</td></tr>
 <tr class="memdesc:a77675f0f795a34bc2a08c5752bd12c34"><td class="mdescLeft">&#160;</td><td class="mdescRight">The minimal required Ansible version.  <a href="pors_8sh.html#a77675f0f795a34bc2a08c5752bd12c34">More...</a><br /></td></tr>
@@ -278,25 +278,20 @@ String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="po
 <tr class="memitem:a19c981f514138e9250af379f66d46b65"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a19c981f514138e9250af379f66d46b65">KICKUSER</a> = N</td></tr>
 <tr class="memdesc:a19c981f514138e9250af379f66d46b65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default setting for overtaken a running session.  <a href="pors_8sh.html#a19c981f514138e9250af379f66d46b65">More...</a><br /></td></tr>
 <tr class="separator:a19c981f514138e9250af379f66d46b65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21af768e12bf80cd75937669551c40f4"><td class="memItemLeft" align="right" valign="top"><a id="a21af768e12bf80cd75937669551c40f4"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a21af768e12bf80cd75937669551c40f4">ABIN</a> = &quot;/usr/bin/ansible-playbook&quot;</td></tr>
-<tr class="memdesc:a21af768e12bf80cd75937669551c40f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The full path to the regular ansible playbook binary. <br /></td></tr>
+<tr class="memitem:a21af768e12bf80cd75937669551c40f4"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a21af768e12bf80cd75937669551c40f4">ABIN</a> = &quot;/usr/bin/ansible-playbook&quot;</td></tr>
+<tr class="memdesc:a21af768e12bf80cd75937669551c40f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The full path to the regular ansible playbook binary.  <a href="pors_8sh.html#a21af768e12bf80cd75937669551c40f4">More...</a><br /></td></tr>
 <tr class="separator:a21af768e12bf80cd75937669551c40f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a039c848051f040b99aba71900f3256ff"><td class="memItemLeft" align="right" valign="top"><a id="a039c848051f040b99aba71900f3256ff"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a039c848051f040b99aba71900f3256ff">VBIN</a> = &quot;/usr/bin/ansible-vault&quot;</td></tr>
-<tr class="memdesc:a039c848051f040b99aba71900f3256ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">The full path to the regular ansible-vault binary. <br /></td></tr>
+<tr class="memitem:a039c848051f040b99aba71900f3256ff"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a039c848051f040b99aba71900f3256ff">VBIN</a> = &quot;/usr/bin/ansible-vault&quot;</td></tr>
+<tr class="memdesc:a039c848051f040b99aba71900f3256ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">The full path to the regular ansible-vault binary.  <a href="pors_8sh.html#a039c848051f040b99aba71900f3256ff">More...</a><br /></td></tr>
 <tr class="separator:a039c848051f040b99aba71900f3256ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a156ac7e54af8f68f4a166b76f6509959"><td class="memItemLeft" align="right" valign="top"><a id="a156ac7e54af8f68f4a166b76f6509959"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a156ac7e54af8f68f4a166b76f6509959">LOGDIR</a> = ${<a class="el" href="pors_8sh.html#a65ed767ae8d8b098d10bef5621b44918">WORKDIR</a>}/logs</td></tr>
-<tr class="memdesc:a156ac7e54af8f68f4a166b76f6509959"><td class="mdescLeft">&#160;</td><td class="mdescRight">The log directory. <br /></td></tr>
+<tr class="memitem:a156ac7e54af8f68f4a166b76f6509959"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a156ac7e54af8f68f4a166b76f6509959">LOGDIR</a> = ${<a class="el" href="pors_8sh.html#a65ed767ae8d8b098d10bef5621b44918">WORKDIR</a>}/logs</td></tr>
+<tr class="memdesc:a156ac7e54af8f68f4a166b76f6509959"><td class="mdescLeft">&#160;</td><td class="mdescRight">The log directory.  <a href="pors_8sh.html#a156ac7e54af8f68f4a166b76f6509959">More...</a><br /></td></tr>
 <tr class="separator:a156ac7e54af8f68f4a166b76f6509959"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7187ca7ba17909332956762d43e1cb8"><td class="memItemLeft" align="right" valign="top"><a id="ac7187ca7ba17909332956762d43e1cb8"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#ac7187ca7ba17909332956762d43e1cb8">LOG</a> = ${<a class="el" href="pors_8sh.html#a156ac7e54af8f68f4a166b76f6509959">LOGDIR</a>}/$(date +%F_%H-%M)_${<a class="el" href="pors_8sh.html#a4cdf0b70265066d6127339b05fd497c1">BIN</a>}.log</td></tr>
-<tr class="memdesc:ac7187ca7ba17909332956762d43e1cb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The log file. <br /></td></tr>
+<tr class="memitem:ac7187ca7ba17909332956762d43e1cb8"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#ac7187ca7ba17909332956762d43e1cb8">LOG</a> = ${<a class="el" href="pors_8sh.html#a156ac7e54af8f68f4a166b76f6509959">LOGDIR</a>}/$(date +%F_%H-%M)_${<a class="el" href="pors_8sh.html#a4cdf0b70265066d6127339b05fd497c1">BIN</a>}.log</td></tr>
+<tr class="memdesc:ac7187ca7ba17909332956762d43e1cb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The log file.  <a href="pors_8sh.html#ac7187ca7ba17909332956762d43e1cb8">More...</a><br /></td></tr>
 <tr class="separator:ac7187ca7ba17909332956762d43e1cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55ba2e9f2abe3c831e69826f9b4ce242"><td class="memItemLeft" align="right" valign="top"><a id="a55ba2e9f2abe3c831e69826f9b4ce242"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a55ba2e9f2abe3c831e69826f9b4ce242">MAXLOG</a> = 10</td></tr>
-<tr class="memdesc:a55ba2e9f2abe3c831e69826f9b4ce242"><td class="mdescLeft">&#160;</td><td class="mdescRight">How many log files are allowed before rotate starts. <br /></td></tr>
+<tr class="memitem:a55ba2e9f2abe3c831e69826f9b4ce242"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a55ba2e9f2abe3c831e69826f9b4ce242">MAXLOG</a> = 10</td></tr>
+<tr class="memdesc:a55ba2e9f2abe3c831e69826f9b4ce242"><td class="mdescLeft">&#160;</td><td class="mdescRight">How many log files are allowed before rotate starts.  <a href="pors_8sh.html#a55ba2e9f2abe3c831e69826f9b4ce242">More...</a><br /></td></tr>
 <tr class="separator:a55ba2e9f2abe3c831e69826f9b4ce242"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40e394fee82460e2fe24a339c9b1a819"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a40e394fee82460e2fe24a339c9b1a819">AEUSRHOSTFILE</a> = ${<a class="el" href="pors_8sh.html#a65ed767ae8d8b098d10bef5621b44918">WORKDIR</a>}/ae_current_hostfile</td></tr>
 <tr class="memdesc:a40e394fee82460e2fe24a339c9b1a819"><td class="mdescLeft">&#160;</td><td class="mdescRight">the user choosen hostfile will be written into this file  <a href="pors_8sh.html#a40e394fee82460e2fe24a339c9b1a819">More...</a><br /></td></tr>
@@ -331,9 +326,8 @@ String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="po
 <tr class="memitem:ada5e961af2b79721a31bd5cd67c5e384"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#ada5e961af2b79721a31bd5cd67c5e384">ROLEDIR</a> = &quot;$ADIR/roles&quot;</td></tr>
 <tr class="memdesc:ada5e961af2b79721a31bd5cd67c5e384"><td class="mdescLeft">&#160;</td><td class="mdescRight">The directory where all roles are expected.  <a href="pors_8sh.html#ada5e961af2b79721a31bd5cd67c5e384">More...</a><br /></td></tr>
 <tr class="separator:ada5e961af2b79721a31bd5cd67c5e384"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c588b65ccd29bf03f0ea2f36124e707"><td class="memItemLeft" align="right" valign="top"><a id="a8c588b65ccd29bf03f0ea2f36124e707"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a8c588b65ccd29bf03f0ea2f36124e707">PBENAPP</a> = ${<a class="el" href="pors_8sh.html#a2ce75fa69a885448a4274d55e0347c58">PBDIRSPLUNK</a>}/ae_enable_app.yml</td></tr>
-<tr class="memdesc:a8c588b65ccd29bf03f0ea2f36124e707"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adding/Linking new app(s) to PORS. <br /></td></tr>
+<tr class="memitem:a8c588b65ccd29bf03f0ea2f36124e707"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a8c588b65ccd29bf03f0ea2f36124e707">PBENAPP</a> = ${<a class="el" href="pors_8sh.html#a2ce75fa69a885448a4274d55e0347c58">PBDIRSPLUNK</a>}/ae_enable_app.yml</td></tr>
+<tr class="memdesc:a8c588b65ccd29bf03f0ea2f36124e707"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adding/Linking new app(s) to PORS.  <a href="pors_8sh.html#a8c588b65ccd29bf03f0ea2f36124e707">More...</a><br /></td></tr>
 <tr class="separator:a8c588b65ccd29bf03f0ea2f36124e707"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89cfb6bf5d929af199bf009bac8aed7e"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a89cfb6bf5d929af199bf009bac8aed7e">PBREGENDEPLOY</a> = ${<a class="el" href="pors_8sh.html#a2ce75fa69a885448a4274d55e0347c58">PBDIRSPLUNK</a>}/ae_recreate_deploy.yml</td></tr>
 <tr class="memdesc:a89cfb6bf5d929af199bf009bac8aed7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Regenerate ae_deploy_apps.yml.  <a href="pors_8sh.html#a89cfb6bf5d929af199bf009bac8aed7e">More...</a><br /></td></tr>
@@ -341,24 +335,20 @@ String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="po
 <tr class="memitem:a04d2a765ad48aee391ce970589657845"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a04d2a765ad48aee391ce970589657845">PBDEPLAPP</a> = ae_deploy_apps.yml</td></tr>
 <tr class="memdesc:a04d2a765ad48aee391ce970589657845"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deploy apps to given targets.  <a href="pors_8sh.html#a04d2a765ad48aee391ce970589657845">More...</a><br /></td></tr>
 <tr class="separator:a04d2a765ad48aee391ce970589657845"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f304baa81ee66cb0098e1a9973d7145"><td class="memItemLeft" align="right" valign="top"><a id="a4f304baa81ee66cb0098e1a9973d7145"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a4f304baa81ee66cb0098e1a9973d7145">PBDEPLSYSC</a> = ${<a class="el" href="pors_8sh.html#a2ce75fa69a885448a4274d55e0347c58">PBDIRSPLUNK</a>}/ae_deploy_systemconfigs.yml</td></tr>
-<tr class="memdesc:a4f304baa81ee66cb0098e1a9973d7145"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deploy system/local configs to given targets. <br /></td></tr>
+<tr class="memitem:a4f304baa81ee66cb0098e1a9973d7145"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a4f304baa81ee66cb0098e1a9973d7145">PBDEPLSYSC</a> = ${<a class="el" href="pors_8sh.html#a2ce75fa69a885448a4274d55e0347c58">PBDIRSPLUNK</a>}/ae_deploy_systemconfigs.yml</td></tr>
+<tr class="memdesc:a4f304baa81ee66cb0098e1a9973d7145"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deploy system/local configs to given targets.  <a href="pors_8sh.html#a4f304baa81ee66cb0098e1a9973d7145">More...</a><br /></td></tr>
 <tr class="separator:a4f304baa81ee66cb0098e1a9973d7145"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55bcb5c8a394dd5d538f5f406af77df8"><td class="memItemLeft" align="right" valign="top"><a id="a55bcb5c8a394dd5d538f5f406af77df8"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a55bcb5c8a394dd5d538f5f406af77df8">PBGETTARGETS</a> = ${<a class="el" href="pors_8sh.html#a2ce75fa69a885448a4274d55e0347c58">PBDIRSPLUNK</a>}/ae_get_targets.yml</td></tr>
-<tr class="memdesc:a55bcb5c8a394dd5d538f5f406af77df8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parsing inventories file and create an expanded host list for each target. <br /></td></tr>
+<tr class="memitem:a55bcb5c8a394dd5d538f5f406af77df8"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a55bcb5c8a394dd5d538f5f406af77df8">PBGETTARGETS</a> = ${<a class="el" href="pors_8sh.html#a2ce75fa69a885448a4274d55e0347c58">PBDIRSPLUNK</a>}/ae_get_targets.yml</td></tr>
+<tr class="memdesc:a55bcb5c8a394dd5d538f5f406af77df8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parsing inventories file and create an expanded host list for each target.  <a href="pors_8sh.html#a55bcb5c8a394dd5d538f5f406af77df8">More...</a><br /></td></tr>
 <tr class="separator:a55bcb5c8a394dd5d538f5f406af77df8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40bf4e7ce006ccfc3a6cb8aa66e088df"><td class="memItemLeft" align="right" valign="top"><a id="a40bf4e7ce006ccfc3a6cb8aa66e088df"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a40bf4e7ce006ccfc3a6cb8aa66e088df">PBUPGRADE</a> = ${<a class="el" href="pors_8sh.html#a2ce75fa69a885448a4274d55e0347c58">PBDIRSPLUNK</a>}/ae_upgrade_splunk.yml</td></tr>
-<tr class="memdesc:a40bf4e7ce006ccfc3a6cb8aa66e088df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upgrade splunk. <br /></td></tr>
+<tr class="memitem:a40bf4e7ce006ccfc3a6cb8aa66e088df"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a40bf4e7ce006ccfc3a6cb8aa66e088df">PBUPGRADE</a> = ${<a class="el" href="pors_8sh.html#a2ce75fa69a885448a4274d55e0347c58">PBDIRSPLUNK</a>}/ae_upgrade_splunk.yml</td></tr>
+<tr class="memdesc:a40bf4e7ce006ccfc3a6cb8aa66e088df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upgrade splunk.  <a href="pors_8sh.html#a40bf4e7ce006ccfc3a6cb8aa66e088df">More...</a><br /></td></tr>
 <tr class="separator:a40bf4e7ce006ccfc3a6cb8aa66e088df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63fb318d1ba289777a689f021cfb4434"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a63fb318d1ba289777a689f021cfb4434">PBSHINSTALL</a> = ${<a class="el" href="pors_8sh.html#abe39da7216a7c356fa0c26e4b90fbb37">PBDIRSHELPER</a>}/ae_install_shelper.yml</td></tr>
 <tr class="memdesc:a63fb318d1ba289777a689f021cfb4434"><td class="mdescLeft">&#160;</td><td class="mdescRight">Install/Upgrade the splunk helper.  <a href="pors_8sh.html#a63fb318d1ba289777a689f021cfb4434">More...</a><br /></td></tr>
 <tr class="separator:a63fb318d1ba289777a689f021cfb4434"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8b6c14970a3d4f412f9e6cca56ca23f"><td class="memItemLeft" align="right" valign="top"><a id="aa8b6c14970a3d4f412f9e6cca56ca23f"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#aa8b6c14970a3d4f412f9e6cca56ca23f">SHOWAPPS</a> = ${<a class="el" href="pors_8sh.html#a50e6a901f14df5cb7691d634ff07442c">ADIR</a>}/ae_show_app_deploymentstate.sh</td></tr>
-<tr class="memdesc:aa8b6c14970a3d4f412f9e6cca56ca23f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show app deployment state by target(s) and type (local, git, ...) <br /></td></tr>
+<tr class="memitem:aa8b6c14970a3d4f412f9e6cca56ca23f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#aa8b6c14970a3d4f412f9e6cca56ca23f">SHOWAPPS</a> = ${<a class="el" href="pors_8sh.html#a50e6a901f14df5cb7691d634ff07442c">ADIR</a>}/ae_show_app_deploymentstate.sh</td></tr>
+<tr class="memdesc:aa8b6c14970a3d4f412f9e6cca56ca23f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show app deployment state by target(s) and type (local, git, ...)  <a href="pors_8sh.html#aa8b6c14970a3d4f412f9e6cca56ca23f">More...</a><br /></td></tr>
 <tr class="separator:aa8b6c14970a3d4f412f9e6cca56ca23f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5abc6709ccffb498c492099b1770c0d6"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a5abc6709ccffb498c492099b1770c0d6">PBSHRELOAD</a> = ${<a class="el" href="pors_8sh.html#a052b51644018749fc5f9dff18a900dab">PBDIRSYSTEM</a>}/ae_shelper_reload.yml</td></tr>
 <tr class="memdesc:a5abc6709ccffb498c492099b1770c0d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute splunk helper tasks.  <a href="pors_8sh.html#a5abc6709ccffb498c492099b1770c0d6">More...</a><br /></td></tr>
@@ -450,13 +440,11 @@ String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="po
 <tr class="memitem:abf0a2571aa2235c7b5e24012414f912e"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#abf0a2571aa2235c7b5e24012414f912e">PBSYSREBOOT</a> = &quot;${PBDIRSYSTEM}/ae_system_reboot.yml&quot;</td></tr>
 <tr class="memdesc:abf0a2571aa2235c7b5e24012414f912e"><td class="mdescLeft">&#160;</td><td class="mdescRight">general system reboot (linux)  <a href="pors_8sh.html#abf0a2571aa2235c7b5e24012414f912e">More...</a><br /></td></tr>
 <tr class="separator:abf0a2571aa2235c7b5e24012414f912e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae3f5425e6367f5e7dccd59166ec2052"><td class="memItemLeft" align="right" valign="top"><a id="aae3f5425e6367f5e7dccd59166ec2052"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#aae3f5425e6367f5e7dccd59166ec2052">PBCREATEUSER</a> = &quot;${PBDIRSYSTEM}/ae_create_useracc.yml&quot;</td></tr>
-<tr class="memdesc:aae3f5425e6367f5e7dccd59166ec2052"><td class="mdescLeft">&#160;</td><td class="mdescRight">Playbook for creating a linux user. <br /></td></tr>
+<tr class="memitem:aae3f5425e6367f5e7dccd59166ec2052"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#aae3f5425e6367f5e7dccd59166ec2052">PBCREATEUSER</a> = &quot;${PBDIRSYSTEM}/ae_create_useracc.yml&quot;</td></tr>
+<tr class="memdesc:aae3f5425e6367f5e7dccd59166ec2052"><td class="mdescLeft">&#160;</td><td class="mdescRight">Playbook for creating a linux user.  <a href="pors_8sh.html#aae3f5425e6367f5e7dccd59166ec2052">More...</a><br /></td></tr>
 <tr class="separator:aae3f5425e6367f5e7dccd59166ec2052"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95d22d16a13fad40edb36af2c5d412b4"><td class="memItemLeft" align="right" valign="top"><a id="a95d22d16a13fad40edb36af2c5d412b4"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a95d22d16a13fad40edb36af2c5d412b4">PBDEPLOYKEY</a> = &quot;${PBDIRSYSTEM}/deploy_splunk_pubpem.yml&quot;</td></tr>
-<tr class="memdesc:a95d22d16a13fad40edb36af2c5d412b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Playbook for deploying a splunk pub key. <br /></td></tr>
+<tr class="memitem:a95d22d16a13fad40edb36af2c5d412b4"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a95d22d16a13fad40edb36af2c5d412b4">PBDEPLOYKEY</a> = &quot;${PBDIRSYSTEM}/deploy_splunk_pubpem.yml&quot;</td></tr>
+<tr class="memdesc:a95d22d16a13fad40edb36af2c5d412b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Playbook for deploying a splunk pub key.  <a href="pors_8sh.html#a95d22d16a13fad40edb36af2c5d412b4">More...</a><br /></td></tr>
 <tr class="separator:a95d22d16a13fad40edb36af2c5d412b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a02157cc7bf98400395c0e2c9e73d60"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pors_8sh.html#a5a02157cc7bf98400395c0e2c9e73d60">DEFSPLAPIADMIN</a> = admin</td></tr>
 <tr class="memdesc:a5a02157cc7bf98400395c0e2c9e73d60"><td class="mdescLeft">&#160;</td><td class="mdescRight">default splunk API (target:8089) admin account  <a href="pors_8sh.html#a5a02157cc7bf98400395c0e2c9e73d60">More...</a><br /></td></tr>
@@ -2118,6 +2106,22 @@ any-other: grep errors </dd></dl>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a21af768e12bf80cd75937669551c40f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21af768e12bf80cd75937669551c40f4">&#9670;&nbsp;</a></span>ABIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ABIN = &quot;/usr/bin/ansible-playbook&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The full path to the regular ansible playbook binary. </p>
+
+</div>
+</div>
 <a id="a50e6a901f14df5cb7691d634ff07442c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a50e6a901f14df5cb7691d634ff07442c">&#9670;&nbsp;</a></span>ADIR</h2>
 
@@ -2184,6 +2188,22 @@ any-other: grep errors </dd></dl>
 
 <p>Ansible inventories directory. </p>
 <p>the PORS inventories dir. the place where your Ansible inventories (with their subdirs like development, production) are in. also includes app links etc. should be overwritten in ~/.pors/vars for production use. </p>
+
+</div>
+</div>
+<a id="a4cdf0b70265066d6127339b05fd497c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cdf0b70265066d6127339b05fd497c1">&#9670;&nbsp;</a></span>BIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BIN = ${0##*/}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>auto generate the binary name without path </p>
 
 </div>
 </div>
@@ -2344,6 +2364,54 @@ any-other: grep errors </dd></dl>
 
 <p>Default setting for overtaken a running session. </p>
 <p>normally we want to have 1 instance running the same time. This avoids dozens of problems which could occur. The default when pressing just enter can be y (remove and take the lock) or N (quit) </p>
+
+</div>
+</div>
+<a id="ac7187ca7ba17909332956762d43e1cb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7187ca7ba17909332956762d43e1cb8">&#9670;&nbsp;</a></span>LOG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LOG = ${<a class="el" href="pors_8sh.html#a156ac7e54af8f68f4a166b76f6509959">LOGDIR</a>}/$(date +%F_%H-%M)_${<a class="el" href="pors_8sh.html#a4cdf0b70265066d6127339b05fd497c1">BIN</a>}.log</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The log file. </p>
+
+</div>
+</div>
+<a id="a156ac7e54af8f68f4a166b76f6509959"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a156ac7e54af8f68f4a166b76f6509959">&#9670;&nbsp;</a></span>LOGDIR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LOGDIR = ${<a class="el" href="pors_8sh.html#a65ed767ae8d8b098d10bef5621b44918">WORKDIR</a>}/logs</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The log directory. </p>
+
+</div>
+</div>
+<a id="a55ba2e9f2abe3c831e69826f9b4ce242"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55ba2e9f2abe3c831e69826f9b4ce242">&#9670;&nbsp;</a></span>MAXLOG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MAXLOG = 10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>How many log files are allowed before rotate starts. </p>
 
 </div>
 </div>
@@ -2551,6 +2619,22 @@ any-other: grep errors </dd></dl>
 
 </div>
 </div>
+<a id="aae3f5425e6367f5e7dccd59166ec2052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae3f5425e6367f5e7dccd59166ec2052">&#9670;&nbsp;</a></span>PBCREATEUSER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PBCREATEUSER = &quot;${PBDIRSYSTEM}/ae_create_useracc.yml&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Playbook for creating a linux user. </p>
+
+</div>
+</div>
 <a id="a04d2a765ad48aee391ce970589657845"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a04d2a765ad48aee391ce970589657845">&#9670;&nbsp;</a></span>PBDEPLAPP</h2>
 
@@ -2565,6 +2649,38 @@ any-other: grep errors </dd></dl>
 
 <p>Deploy apps to given targets. </p>
 <p>This playbook gets autogenerated when running $PBREGENDEPLOY </p>
+
+</div>
+</div>
+<a id="a95d22d16a13fad40edb36af2c5d412b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95d22d16a13fad40edb36af2c5d412b4">&#9670;&nbsp;</a></span>PBDEPLOYKEY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PBDEPLOYKEY = &quot;${PBDIRSYSTEM}/deploy_splunk_pubpem.yml&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Playbook for deploying a splunk pub key. </p>
+
+</div>
+</div>
+<a id="a4f304baa81ee66cb0098e1a9973d7145"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f304baa81ee66cb0098e1a9973d7145">&#9670;&nbsp;</a></span>PBDEPLSYSC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PBDEPLSYSC = ${<a class="el" href="pors_8sh.html#a2ce75fa69a885448a4274d55e0347c58">PBDIRSPLUNK</a>}/ae_deploy_systemconfigs.yml</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deploy system/local configs to given targets. </p>
 
 </div>
 </div>
@@ -2721,6 +2837,22 @@ any-other: grep errors </dd></dl>
 
 </div>
 </div>
+<a id="a8c588b65ccd29bf03f0ea2f36124e707"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c588b65ccd29bf03f0ea2f36124e707">&#9670;&nbsp;</a></span>PBENAPP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PBENAPP = ${<a class="el" href="pors_8sh.html#a2ce75fa69a885448a4274d55e0347c58">PBDIRSPLUNK</a>}/ae_enable_app.yml</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adding/Linking new app(s) to PORS. </p>
+
+</div>
+</div>
 <a id="aba48acee5877a0c209f439ad543d669b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aba48acee5877a0c209f439ad543d669b">&#9670;&nbsp;</a></span>PBGCPGETIDS</h2>
 
@@ -2735,6 +2867,22 @@ any-other: grep errors </dd></dl>
 
 <p>Get configured GCP project ids. </p>
 <p>Get configured Google Cloud Platform project ids from the ansible config </p>
+
+</div>
+</div>
+<a id="a55bcb5c8a394dd5d538f5f406af77df8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55bcb5c8a394dd5d538f5f406af77df8">&#9670;&nbsp;</a></span>PBGETTARGETS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PBGETTARGETS = ${<a class="el" href="pors_8sh.html#a2ce75fa69a885448a4274d55e0347c58">PBDIRSPLUNK</a>}/ae_get_targets.yml</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parsing inventories file and create an expanded host list for each target. </p>
 
 </div>
 </div>
@@ -2942,6 +3090,22 @@ any-other: grep errors </dd></dl>
 
 </div>
 </div>
+<a id="a40bf4e7ce006ccfc3a6cb8aa66e088df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40bf4e7ce006ccfc3a6cb8aa66e088df">&#9670;&nbsp;</a></span>PBUPGRADE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PBUPGRADE = ${<a class="el" href="pors_8sh.html#a2ce75fa69a885448a4274d55e0347c58">PBDIRSPLUNK</a>}/ae_upgrade_splunk.yml</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upgrade splunk. </p>
+
+</div>
+</div>
 <a id="a29d578bb57b646e55e16f35363638622"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a29d578bb57b646e55e16f35363638622">&#9670;&nbsp;</a></span>PBVCGETVHOSTSTATES</h2>
 
@@ -3129,6 +3293,22 @@ any-other: grep errors </dd></dl>
 
 </div>
 </div>
+<a id="aa8b6c14970a3d4f412f9e6cca56ca23f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8b6c14970a3d4f412f9e6cca56ca23f">&#9670;&nbsp;</a></span>SHOWAPPS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SHOWAPPS = ${<a class="el" href="pors_8sh.html#a50e6a901f14df5cb7691d634ff07442c">ADIR</a>}/ae_show_app_deploymentstate.sh</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Show app deployment state by target(s) and type (local, git, ...) </p>
+
+</div>
+</div>
 <a id="a595f0d3a7c0fe837e86a916565a76d98"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a595f0d3a7c0fe837e86a916565a76d98">&#9670;&nbsp;</a></span>VAULTTEMPFILE</h2>
 
@@ -3143,6 +3323,22 @@ any-other: grep errors </dd></dl>
 
 <p>The temporary file holding the Ansible Vault password. </p>
 <p>Only relevant if ENABLEVAULT is set to yes. to operate seamless the typed password gets stored locally but only until the cookie authentication has finished. after that the temporary file gets deleted automatically. If you are scared about storing a password even temporary do <em>not</em> set ENABLEVAULT=yes . The temporary file is placed in WORKDIR which is accessible by the PORS user only! </p>
+
+</div>
+</div>
+<a id="a039c848051f040b99aba71900f3256ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a039c848051f040b99aba71900f3256ff">&#9670;&nbsp;</a></span>VBIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VBIN = &quot;/usr/bin/ansible-vault&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The full path to the regular ansible-vault binary. </p>
 
 </div>
 </div>
