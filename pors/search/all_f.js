@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['validroles_0',['VALIDROLES',['../pors_8sh.html#a7d3474bbe32275b0183da7269c7d0c66',1,'pors.sh']]],
-  ['vaulttempfile_1',['VAULTTEMPFILE',['../pors_8sh.html#a595f0d3a7c0fe837e86a916565a76d98',1,'pors.sh']]],
-  ['vbin_2',['VBIN',['../pors_8sh.html#a039c848051f040b99aba71900f3256ff',1,'pors.sh']]]
+  ['sessionbasedvault_0',['SESSIONBASEDVAULT',['../pors_8sh.html#a4e98484a249ff23a244253d97b21a7e4',1,'pors.sh']]],
+  ['showapps_1',['SHOWAPPS',['../pors_8sh.html#a02386f1d7a51674557317fbb7abb5b0a',1,'pors.sh']]],
+  ['splunk_20pors_2',['Playbooks-On-Rails for Splunk (PORS)',['../index.html',1,'']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['kickuser_0',['KICKUSER',['../pors_8sh.html#a19c981f514138e9250af379f66d46b65',1,'pors.sh']]]
+  ['instdef_0',['INSTDEF',['../pors_8sh.html#a1989f6cdf6fdf7f2e2b99d5f041f7e49',1,'pors.sh']]],
+  ['instdefls_1',['INSTDEFLS',['../pors_8sh.html#adb3d37136093f6b2db1ace3de9047c69',1,'pors.sh']]]
 ];

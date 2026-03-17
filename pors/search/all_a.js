@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ncurses_5fno_5futf8_5facs_0',['NCURSES_NO_UTF8_ACS',['../pors_8sh.html#a66cd4688de0d56b256feddb2678db678',1,'pors.sh']]]
+  ['maxlog_0',['MAXLOG',['../pors_8sh.html#a541f3e03a79a2abab64a37d245d2a57a',1,'pors.sh']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['log_0',['LOG',['../pors_8sh.html#a99fb68646489d046faa1a0478d7c8e76',1,'pors.sh']]],
-  ['logdir_1',['LOGDIR',['../pors_8sh.html#a156ac7e54af8f68f4a166b76f6509959',1,'pors.sh']]]
+  ['kickuser_0',['KICKUSER',['../pors_8sh.html#ad30e44439333b45f571d4eb9249eaa32',1,'pors.sh']]]
 ];
